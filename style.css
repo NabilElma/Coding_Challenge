@@ -1,0 +1,70 @@
+/*Selettore universale*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/*Selettori avanzati*/
+h1.titolo {
+    color: rgb(10, 194, 10);
+    margin-bottom: 5px;
+}
+h3.monopattino, div.indirizzo, div.statocarica {
+    color: white;
+}
+h3.monopattino, div.statocarica {
+    display: inline-block;
+}
+div.button {
+    background-color:rgb(10, 194, 10);
+    border: 5px solid rgb(10, 194, 10);
+}
+
+/*Selettori Tag*/
+html {
+    background-image: url(background.jpg);
+    background-size: cover;
+    padding: 5% 25% 0% 25%;
+}
+header {
+    text-align: center;
+} 
+img {
+    width: 175px;
+}
+
+/*Selettori Classe*/
+.monopattino {
+    margin-top: 15px;
+}
+.indirizzo:before {
+    content: "\2192";
+}
+/*Selettori Id*/
+#contenuto {
+    background-color: rgba(0, 0, 0, 0.6);
+    background-size: contain;
+    border-radius: 1%;
+    padding: 5% 10% 10% 10%;
+}
+#caricamentoGino22 {
+    background-color:rgb(247, 183, 64);
+    border: 10px solid rgb(247, 183, 64);
+    margin-right: 60%;
+}
+#caricamentoMike24 {
+    background-color:rgb(59, 197, 47);
+    border: 10px solid rgb(59, 197, 47);
+    margin-right: 30%;
+}
+#caricamentoFede154 {
+    background-color:rgb(241, 70, 70);
+    border: 10px solid rgb(241, 70, 70);
+    margin-right: 80%;
+}
+
+
+
+
+
+
